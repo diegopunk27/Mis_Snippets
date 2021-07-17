@@ -1,0 +1,56 @@
+{
+	// Place your snippets for dart here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Standard Main": {
+	 	"prefix": "mate",
+	 	"body": [
+	 		"import 'package:flutter/material.dart';",
+			"",
+			"void main() => runApp(MyApp());",
+			"", 
+			 "class MyApp extends StatelessWidget {",
+			   "  @override",
+			   "  Widget build(BuildContext context) {",
+			   "   return MaterialApp(",
+			   "    title: 'Material App',",
+			   "    home: Scaffold(",
+			   "     appBar: AppBar(",
+			   "      title: Text('Material App'),",
+			   "     ),",
+			   "     body: Center(",
+			   "      child: Container(",
+			   "       child: Text('Hola Mundo'),",
+			   "      ),",
+			   "     ),",
+			   "    ),",
+			   "  );",
+			   " }",
+			   "}",
+	 	],
+	 	"description": "Crea un main básico"
+	},
+
+	"Flutter Page": {
+		"prefix": "fl-page",
+		"body": [
+			"import 'package:flutter/material.dart';",
+			"",
+			"",
+			"class ${1:name}Page extends StatelessWidget {",
+			"",
+			"  @override",
+			"  Widget build(BuildContext context) {",
+			"    return Scaffold(",
+			"      body: Center(",
+			"        child: Text('Hola Mundo'),",
+			"     ),",
+			"   );",
+			"  }",
+			"}",
+		],
+		"description": "Crea una página de flutter fácilmente"
+	},
+}
